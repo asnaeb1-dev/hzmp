@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Appearance">
+        <CheckBoxPreference
+            android:key="darkModeCheckBox"
+            android:title="Dark mode"
+            android:summary="Set theme to dark"
+            android:defaultValue="false"
+            android:buttonTint="?attr/tint_color"
+            android:theme="?attr/preference_text_color"
+            />
+
+        <Preference
+            android:buttonTint="?attr/tint_color"
+            android:key="themes"
+            android:title="Themes"
+            android:summary="Select themes of your choice"
+            />
+
+        <ListPreference
+            android:key="mainScreenTransition"
+            android:title="Main screen transition"
+            android:summary="Set the main screen transitions"
+            android:entries="@array/mainScreenTrans"
+            android:entryValues="@array/mainScreenTrans"
+            android:defaultValue="Depth Transformation"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Last FM">
+        <SwitchPreference
+            android:buttonTint="?attr/tint_color"
+            android:key="artistartswitch"
+            android:title="Artist Art"
+            android:summary="Allow app to download artist art from the internet"
+            android:defaultValue="true"
+            android:id="@+id/artistArtSettings"
+            />
+
+    <SwitchPreference
+        android:buttonTint="?attr/tint_color"
+        android:key="albumartswitch"
+        android:title="Album Art"
+        android:summary="Allow app to download album art from the internet"
+        android:defaultValue="false"
+        android:id="@+id/albumArtSettings"
+        />
+</PreferenceCategory>
+
+    <PreferenceCategory android:title="Music player">
+        <SwitchPreference
+            android:buttonTint="?attr/tint_color"
+            android:title="Auto Loop"
+            android:summary="Allow auto-loop by default in all song lists"
+            android:enabled="true"
+            android:defaultValue="true"
+            />
+
+        <ListPreference
+            android:buttonTint="?attr/tint_color"
+            android:entries="@array/sleeptimerlist"
+            android:entryValues="@array/sleeptimerlist"
+            android:key="sleeptimerListP"
+            android:title="Sleep Timer"
+            android:summary="Set sleep timer time."
+            />
+
+        <ListPreference
+            android:buttonTint="?attr/tint_color"
+            android:defaultValue="Bar Visualizer"
+            android:entries="@array/visualizer_list"
+            android:entryValues="@array/visualizer_list"
+            android:key="visualizerListP"
+            android:title="Visualizer"
+            android:summary="Select visualizer"
+            />
+
+        <CheckBoxPreference
+            android:buttonTint="?attr/tint_color"
+            android:key="rememberLastSong"
+            android:title="Last Played"
+            android:summary="Remember last song playing."
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Mood settings" >
+        <SwitchPreference
+            android:buttonTint="?attr/tint_color"
+            android:key="auto_emotion_predict"
+            android:title="Auto emotion predict"
+            android:summary="Allow system to automatically populate respective mood lists."
+            android:defaultValue="false"
+            />
+
+        <CheckBoxPreference
+            android:buttonTint="?attr/tint_color"
+            android:key="showDialogMood"
+            android:title="Mood setter dialog"
+            android:summary="Show mood selector dialog once everyday."
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Others">
+        <Preference
+            android:buttonTint="?attr/tint_color"
+            android:key="defaultSettings"
+            android:title="Default"
+            android:summary="Change all settings to default"
+            android:enabled="false"
+            android:textColor="?attr/text_color"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

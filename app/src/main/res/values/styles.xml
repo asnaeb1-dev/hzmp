@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Apply when Day/Light mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="app_background">#fcf9f9</item>
+        <item name="card_background">@color/av_deep_orange</item>
+        <item name="tint_color">@color/colorAccent</item>
+        <item name="text_color">#212121</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearanceLight</item>
+        <item name="android:actionMenuTextColor">#212121</item>
+        <item name="android:itemBackground">#fcf9f9</item>
+        <item name="button_color">@style/button_background_light</item>
+        <item name="slider_color">@color/slidercolorLight</item>
+        <item name="equalizer_color">@color/eqcolorLight</item>
+    </style>
+
+    <!-- Apply when Night/Dark mode -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/av_red</item>
+        <item name="app_background">#303030</item>
+        <item name="card_background">#424242</item>
+        <item name="tint_color">#FFCE1326</item>
+        <item name="text_color">#fcf9f9</item>
+        <item name="button_color">@style/button_background_dark</item>
+        <item name="slider_color">@color/slidercolorDark</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearanceDark</item>
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+        <item name="android:itemBackground">#212121</item>
+        <item name="equalizer_color">@color/eqcolorDark</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="button_background_dark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+    <style name="button_background_light" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@android:drawable/screen_background_light_transparent</item>
+    </style>
+
+    <style name="WindowTransitionAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearanceDark" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="myCustomMenuTextAppearanceLight" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/interchange"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="List to Album"
+        app:actionViewClass="android.widget.ImageButton"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/search_Option_main"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_search"
+        android:iconTint="@android:color/white"
+        android:title="Search Menu"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"></item>
+
+</menu>

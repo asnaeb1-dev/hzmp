@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Hertz</string>
+    <string name="complete_app_name">Hertz Music Player</string>
+    <string name="unknown">Unknown</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="album_unknown">Album- Unknown</string>
+    <string name="mood_select_title">Mood Engine</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="title_activity_navigation_music">NavigationMusicActivity</string>
+    <string name="default_timer_text">00:00</string>
+    <string name="dismiss_button_text">Dismiss</string>
+    <string name="search">search</string>
+    <string name="save">Save</string>
+    <string name="select_your_mood">Select your mood</string>
+    <string name="play_by_mood">play by mood</string>
+    <string name="artist_unknown">Artist- Unknown</string>
+    <string name="sorry_no_content_available">Sorry! No content available</string>
+    <string name="clear_queue">Clear queue</string>
+    <string name="settings">Settings</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    
+    <string-array name="visualizer_list">
+        <item>Bar Visualizer</item>
+        <item>Wave Visualizer</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="sleeptimerlist">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+    </string-array>
+
+    <string-array name="mainScreenTrans">
+        <item>Depth Transformation</item>
+        <item>Cube in Transformation</item>
+        <item>Cube out Transformation</item>
+        <item>Cube out scaling Transformation</item>
+        <item>Fan Transformation</item>
+    </string-array>
+</resources>

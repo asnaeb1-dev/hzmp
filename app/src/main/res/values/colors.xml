@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4864C2</color>
+    <color name="colorPrimary">#CE1326</color>
+    <color name="colorAccent">#BE4E3CDD</color>
+
+    <!--slider colors-->
+    <color name="slidercolorDark">#000000</color>
+    <color name="slidercolorLight">#ffffff</color>
+    <!--equalizer colors-->
+    <color name="eqcolorLight">#CE1326</color>
+    <color name="eqcolorDark">#0038FF</color>
+</resources>

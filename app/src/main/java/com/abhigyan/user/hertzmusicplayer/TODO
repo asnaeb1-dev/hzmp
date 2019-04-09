@@ -1,0 +1,20 @@
+
+TODO:
+TODO: 4) implement awesome UI & UX 5) implement playlists: i) recently played ii) create playlists at will
+TODO 5) implement wake lock, audio focus
+
+date: 28-03-19
+changes made
+1) option for album art dwnload added to the settings ui
+2) corresponding changes made to application settings class
+3) created an extra arraylist in the songlistrvadapter class and stored the song links in it
+4) split string cncept applied on the processor tool
+5) renamed "getArtistName" methd in processortool to "reformatArtistName", created a new method
+6) corrected the faults in the slide up window texts and backgroudn colors
+*7) added "finish()" method after the activity transition in the drawer menu in the main activity (must look for better and more
+        seamless options)
+
+
+TODO:
+remove the repetations in the album and artist screens.
+

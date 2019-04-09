@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addToQueue"
+        android:title="Add to Queue" />
+    <item
+        android:id="@+id/details1"
+        android:title="Details" />
+
+    <item
+        android:id="@+id/addTo"
+        android:title="Add to playlist" />
+
+    <item
+        android:id="@+id/albumResource"
+        android:title="Go to Album" />
+
+    <item
+        android:id="@+id/artistResource"
+        android:title="Go to Artist" />
+
+    <item
+
+        android:id="@+id/removeFromFavs"
+        android:title="Remove from favourites" />
+
+    <item
+        android:id="@+id/deleteFromDevice"
+        android:title="Delete from device" />
+
+</menu>
